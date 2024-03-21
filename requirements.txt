@@ -1,0 +1,6 @@
+numpy==1.24.1
+timm==0.9.7
+opencv-python==4.6.0.66
+einops==0.6.0
+pillow==9.2.0
+scipy==1.11.3
