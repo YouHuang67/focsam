@@ -112,3 +112,7 @@ bash tools/dist_train.sh configs/focsam/coco_lvis/train_colaug_coco_lvis_1024x10
 export PYTHONPATH=.
 CUDA_VISIBLE_DEVICES= python tools/train.py configs/focsam/coco_lvis/train_colaug_coco_lvis_1024x1024_160k.py
 ```
+
+# License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
