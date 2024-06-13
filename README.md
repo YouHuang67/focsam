@@ -6,7 +6,7 @@
 # Introduction
 
 This repository contains the implementation for
-> FocSAM: Delving Deeply into Focused Objects in Segmenting Anything
+> [FocSAM: Delving Deeply into Focused Objects in Segmenting Anything](https://arxiv.org/abs/2405.18706)
 
 
 # Demo
