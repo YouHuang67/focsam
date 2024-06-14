@@ -5,14 +5,11 @@ import numpy as np
 import torch
 
 import mmengine
-from mmengine.registry import Registry
 from mmengine.dist import get_dist_info
+from mmseg.registry import MODELS as EMBED_LOADERS
 from engine.segmentors import EmptyBackbone
 from engine.timers import Timer
 from .utils import collect_strings, broadcast_strings
-
-
-EMBED_LOADERS = Registry('embed_loader')
 
 
 @EMBED_LOADERS.register_module()
