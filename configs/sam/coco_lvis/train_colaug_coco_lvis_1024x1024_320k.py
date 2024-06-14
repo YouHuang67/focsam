@@ -13,7 +13,7 @@ model = dict(
         type='BaseEmbedLoader',
         embed_dir='data/embeds/colaug_coco_1024x1024_sam_vit_huge',
         list_format=True,
-        update_prefixes_each_step=False),
+        update_prefixes_each_step=True),
     train_cfg=dict(
         interact_params={'coco': dict(gamma=0.6), 'lvis': dict(gamma=0.9)})
 )
